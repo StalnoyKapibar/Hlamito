@@ -4,7 +4,7 @@ import javax.persistence.*;
 import java.time.LocalDate;
 
 @MappedSuperclass
-public abstract class User {
+public abstract class UserAbstract {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -22,10 +22,10 @@ public abstract class User {
     @Column
     private LocalDate registrationDate;
 
-    public User() {
+    public UserAbstract() {
     }
 
-    public User(String password, String email, String name, LocalDate registrationDate) {
+    public UserAbstract(String password, String email, String name, LocalDate registrationDate) {
         this.password = password;
         this.email = email;
         this.name = name;
