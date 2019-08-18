@@ -1,4 +1,4 @@
-package org.hlamito.hlamito;
+package org.hlamito;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
