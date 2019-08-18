@@ -1,4 +1,4 @@
-package org.hlamito.hlamito;
+package org.hlamito;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
