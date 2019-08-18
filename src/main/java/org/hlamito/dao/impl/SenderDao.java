@@ -6,4 +6,5 @@ import org.springframework.stereotype.Repository;
 
 @Repository("senderDao")
 public class SenderDao extends AbstractDAO<Sender> {
+
 }
