@@ -35,6 +35,13 @@ public abstract class AbstractDAO<T>  {
         return entityManager.createQuery("SELECT e FROM " + clazz.getName() + " e", clazz).setMaxResults(limit).getResultList();
     }
 
+    public T getByFieldNameAndValue(String name, Object object){
+        return entityManager.createQuery( "SELECT e FROM" + clazz.getName() + "WHERE e." + name + " = :param", clazz)
+                .setParameter("param",object)
+                .getResultList()
+                .stream().findFirst().orElse(null);
+    }
+
     public T getById(Long id) {
         return entityManager.find(clazz, id);
     }
