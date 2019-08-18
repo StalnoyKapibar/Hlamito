@@ -1,7 +1,7 @@
 package org.hlamito.dao.impl;
 
 import org.hlamito.dao.AbstractDAO;
-import org.hlamito.model.Sender;
+import org.hlamito.models.Sender;
 import org.springframework.stereotype.Repository;
 
 @Repository("senderDao")

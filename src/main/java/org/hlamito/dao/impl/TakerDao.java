@@ -1,7 +1,7 @@
 package org.hlamito.dao.impl;
 
 import org.hlamito.dao.AbstractDAO;
-import org.hlamito.model.Taker;
+import org.hlamito.models.Taker;
 import org.springframework.stereotype.Repository;
 
 @Repository("takerDao")

@@ -1,7 +1,7 @@
 package org.hlamito.dao.impl;
 
 import org.hlamito.dao.AbstractDAO;
-import org.hlamito.model.Offer;
+import org.hlamito.models.Offer;
 import org.springframework.stereotype.Repository;
 
 @Repository("offerDao")

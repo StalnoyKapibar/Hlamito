@@ -1,4 +1,4 @@
-package org.hlamito.model;
+package org.hlamito.models;
 
 import javax.persistence.Entity;
 
