@@ -1,4 +1,4 @@
-package model;
+package org.hlamito.model;
 
 import javax.persistence.*;
 import java.time.LocalDate;
